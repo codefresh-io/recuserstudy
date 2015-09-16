@@ -7,7 +7,7 @@ RUN sudo ln -s "$(which nodejs)" /usr/bin/node
 
 RUN npm install npm -g
 
-COPY package.json /src/
+COPY package.json /src/package.json
 WORKDIR /src
 RUN npm install
 
