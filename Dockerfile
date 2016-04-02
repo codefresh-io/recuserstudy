@@ -9,7 +9,6 @@ RUN npm install npm -g
 
 COPY package.json /src/package.json
 WORKDIR /src
-RUN npm install
 
 EXPOSE 9000
 
